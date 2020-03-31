@@ -1,0 +1,10 @@
+import requests
+
+def download(url):
+    get_request=requests.get(url)
+    file_name=url.split("/")[-1]
+    with open(file_name,"wb") as out_file:
+        out_file.write(get_request.content)
+
+
+download("https://images.news18.com/optimize/dvjcINCyKj0iM1Gdoi0XZirb20w=/532x353/images.news18.com/ibnlive/uploads/532x353/jpg/2020/01/Salman-Khan-13.jpg")
