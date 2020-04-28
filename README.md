@@ -1,6 +1,6 @@
 # beginner-hacking
 root@kali:~/PycharmProject/hacking# python macchanger.py -help
-Usage: virus.py [options]
+Usage: macchanger.py [options]
 
 Options:
   -h, --help            show this help message and exit
