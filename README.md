@@ -1,5 +1,5 @@
 # beginner-hacking
-root@kali:~/PycharmProject/hacking# python virus.py -help
+root@kali:~/PycharmProject/hacking# python macchanger.py -help
 Usage: virus.py [options]
 
 Options:
